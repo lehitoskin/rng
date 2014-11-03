@@ -1,9 +1,9 @@
 #!/usr/bin/env racket
 #lang racket/base
-(require racket/file
-         racket/cmdline)
 ; cat.rkt
 ; RNG cat
+(require racket/file
+         racket/cmdline)
 
 (command-line
  #:args (file . others)
